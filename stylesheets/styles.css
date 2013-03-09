@@ -2,29 +2,91 @@
 
 body {
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  height: 100%; width: 100%; font-size: 12pt; margin: 0; padding: 0; font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  height:100%;
+  width:100%;
+  font-size:12pt;
+  margin:0;
+  padding:0;
+  font-family:"Segoe UI", Arial, Helvetica, sans-serif;
 }
-header
-{height:25px;width:100%;background: url('../images/likes_back.png') repeat-x;}
-#box-wrapper{ background: #fff; -moz-box-shadow: 0 0 20px; -webkit-box-shadow: 0 0 10px; box-shadow: 0 0 20px; padding: 10px 0 10px 0; height:100%}
-#logo{width: 240px;}
-#download-box-wrap-background{background-color: #ececef}
-#download-box-wrap{width: 998px;
-margin: 0 auto 0 auto;
-padding-top: 30px;height:320px}
-#download-box-wrap .ocarousel{width: 536px;float: left;padding-right: 30px;}
-#download-box-wrap .ocarousel_window{height: 330px;}
-#device{float: left;}
-#devices{float: left;}
-#download-box-wrap#right{color: #454545;}
-#download-box-wrap span{font-size: 1.8em;display: block;}
-#download-box-wrap p{display: block;margin-top: 50px;}
-#download-button-wrap{color: black;padding-top: 30px;}
-#download-button{background-image: url('../images/store_icon_blue.png');
-background-size: 25px;
-background-position: 15px 6px;background-repeat: no-repeat;
-color: black;
-text-decoration: none;
-padding: 12px 35px 12px 55px;
-font-size: 0.95em;
-font-weight: bold;background-color: white;}
+
+header {
+  height:25px;
+  width:100%;
+  background:url(../images/likes_back.png) repeat-x;
+}
+
+#box-wrapper {
+  background:#fff;
+  -moz-box-shadow:0 0 20px;
+  -webkit-box-shadow:0 0 10px;
+  box-shadow:0 0 20px;
+  padding:10px 0;
+  height:100%;
+}
+
+#logo {
+  width:240px;
+}
+
+#download-box-wrap-background {
+  background-color:#ececef;
+}
+
+#download-box-wrap {
+  width:998px;
+  margin:0 auto;
+  padding-top:30px;
+  height:320px;
+}
+
+#download-box-wrap .ocarousel {
+  width:536px;
+  float:left;
+  padding-right:30px;
+}
+
+#download-box-wrap .ocarousel_window {
+  height:330px;
+}
+
+#device {
+  float:left;
+}
+
+#devices {
+  float:left;
+}
+
+#download-box-wrap#right {
+  color:#454545;
+}
+
+#download-box-wrap span {
+  font-size:1.8em;
+  display:block;
+}
+
+#download-box-wrap p {
+  display:block;
+  margin-top:50px;
+}
+
+#download-button-wrap {
+  color:#000;
+  padding-top:30px;
+}
+
+#download-button {
+  background-image:url(../images/store_icon_blue.png);
+  background-size:25px;
+  background-position:15px 6px;
+  background-repeat:no-repeat;
+  color:#000;
+  text-decoration:none;
+  padding:12px 35px 12px 55px;
+  font-size:.95em;
+  font-weight:700;
+  background-color:#FFF;
+}
+
