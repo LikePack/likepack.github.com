@@ -49,6 +49,10 @@ header {
   padding-top:30px;
 }
 
+.description-box-wrap p {
+  font-size: 13px;
+}
+
 #download-box-wrap .ocarousel {
   width:536px;
   float:left;
@@ -110,6 +114,14 @@ h1 {
   background-color: #000000;
 }
 
+:hover {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
 .demo {
   padding: 5px;
   background: #fff;
@@ -120,17 +132,56 @@ h1 {
   float: left;
 }
 
+.demo:hover {
+  -moz-box-shadow: 0 0 7px 0 rgba(0,0,0,0.38);
+  -webkit-box-shadow: 0 0 7px 0 rgba(0,0,0,0.38);
+  box-shadow: 0 0 7px 0 rgba(0,0,0,0.38);
+}
+.bottom {
+  clear: both;
+  height:30px;
+  width:100%;
+  background:url(../images/likes_bottom.png) repeat-x;
+  z-index: -1;
+  position: relative;
+}
+
+.separator {
+  clear: both;
+  height: 20px;
+}
+
 .footer {
   clear: both;
   background-color:#ececef;
+  height: 40px;
+}
+.footer ul {
+  padding-top: 10px;
 }
 
-.bottom {
-  -moz-box-shadow:0 0 20px 10px ;
-  -webkit-box-shadow:0 0 20px 10px;
-  box-shadow:0 0 20px 10px;
-  clear: both;
-  height:25px;
-  width:100%;
-  background:url(../images/likes_bottom.png) repeat-x;
+.footer ul li {
+  display: inline;
 }
+
+.footer ul li a {
+  color: #454545;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 14px;
+}
+
+.footer ul li:last-child a {
+  font-weight: bold;
+  cursor: default;
+}
+
+.footer ul li:last-child a:hover {
+  font-weight: bold;
+  color: #454545;
+}
+
+.footer ul li a:hover {
+  color: #ffa200;
+}
+
