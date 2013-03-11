@@ -27,6 +27,7 @@ header {
 
 #logo {
   width:240px;
+  padding-bottom: 10px;
 }
 
 #web-version-link {
@@ -40,7 +41,10 @@ header {
 }
 
 #download-box-wrap-background {
-  background-color:#ececef;
+  background: url('../images/grid_back.png');
+  -moz-box-shadow: 0 0 17px 0 rgba(0,0,0,0.8);
+  -webkit-box-shadow: 0 0 17px 0 rgba(0,0,0,0.8);
+  box-shadow: 0 0 17px 0 rgba(0,0,0,0.8);
 }
 
 #download-box-wrap, .description-box-wrap {
@@ -153,8 +157,11 @@ h1 {
 
 .footer {
   clear: both;
-  background-color:#ececef;
-  height: 40px;
+  background: url('../images/grid_back.png');
+  -moz-box-shadow: 0 0 17px 0 rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0 17px 0 rgba(0,0,0,0.5);
+  box-shadow: 0 0 17px 0 rgba(0,0,0,0.5);
+  height: 50px;
 }
 .footer ul {
   padding-top: 10px;
